@@ -17,7 +17,7 @@ let telebeler = [
     {
         name: "Ramil",
         surname: "Məhərrəmov",
-        hobbies: "Bilməm",
+        hobbies: "Piano çalmaq",
         mark: 94
     },
     {
