@@ -17,43 +17,43 @@
 
 
 // TASK2
-let telebeler = [
-    {
-        name: "Ceyran",
-        surname: "Oruclu",
-        hobbies: "Gitar çalmaq",
-        mark: 95
-    },
-    {
-        name: "Ramil",
-        surname: "Məhərrəmov",
-        hobbies: "Piano çalmaq",
-        mark: 94
-    },
-    {
-        name: "Əlövsət",
-        surname: "Əlövsətov",
-        hobbies: "Peçenyə yemək",
-        mark: 50
-    },
-    {
-        name: "Niyaməddin",
-        surname: "Niyaməddinov",
-        hobbies: "Yatmaq",
-        mark: 68
-    },
-];
-let searchName = prompt("Tələbənin adını daxil edin:");
-let ad = telebeler.find(student => student.name.toLowerCase() === searchName.toLowerCase());
-if (ad) {
-    console.log("Ad: " + ad.name);
-    console.log("Soyad: " + ad.surname);
-    console.log("Hobilər: " + ad.hobbies);
-    console.log("Qiymət: " + ad.mark);
+// let telebeler = [
+//     {
+//         name: "Ceyran",
+//         surname: "Oruclu",
+//         hobbies: "Gitar çalmaq",
+//         mark: 95
+//     },
+//     {
+//         name: "Ramil",
+//         surname: "Məhərrəmov",
+//         hobbies: "Piano çalmaq",
+//         mark: 94
+//     },
+//     {
+//         name: "Əlövsət",
+//         surname: "Əlövsətov",
+//         hobbies: "Peçenyə yemək",
+//         mark: 50
+//     },
+//     {
+//         name: "Niyaməddin",
+//         surname: "Niyaməddinov",
+//         hobbies: "Yatmaq",
+//         mark: 68
+//     },
+// ];
+// let searchName = prompt("Tələbənin adını daxil edin:");
+// let ad = telebeler.find(student => student.name.toLowerCase() === searchName.toLowerCase());
+// if (ad) {
+//     console.log("Ad: " + ad.name);
+//     console.log("Soyad: " + ad.surname);
+//     console.log("Hobilər: " + ad.hobbies);
+//     console.log("Qiymət: " + ad.mark);
 
-} else {
-    console.log("%c" + searchName + " %cadlı tələbə yoxdur!", "color: red;", "");
-}
+// } else {
+//     console.log("%c" + searchName + " %cadlı tələbə yoxdur!", "color: red;", "");
+// }
 
 
 
